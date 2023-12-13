@@ -29,3 +29,13 @@ for example In Recent Video Playlist, If Video Id was the second most recent vid
 In short Playlist conatining random Video ID will Start from the video relitive position in the given playlist.
 
 Example: https://www.youtube.com/watch?v=jUnckT__yHI&list=UULFCvVpbYRgYjMN7mG7qQN0Pg depending upon when you will visit this link and the recent videos on the channle you will find the video number to chnage.
+
+# How to Find Channle ID?
+On Desktop go to the channle and then click on the channle discription.
+
+Scroll down until you see the option for share channle.
+
+Click on it and select copy Channle ID. You will get something like this UCCvVpbYRgYjMN7mG7qQN0Pg
+
+Just Remove the UC from the beginning and you have the Channle ID which you can use in Playlist.
+
