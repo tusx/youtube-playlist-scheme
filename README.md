@@ -1,41 +1,40 @@
 # youtube-playlist-scheme
-This Repo Will Explain how Playlist scheme works on YouTube. Im no Expert, this is just an observation of mine.
+This repo will explain how the playlist scheme works on YouTube. I'm not an expert on this, it's just an observation of mine.
 
 # Popular Video Scheme
-Then Url scheme should look like this.
+The URL scheme should look like this:
 
 https://www.youtube.com/watch?v=uy5pWDFq0vI&list=UULPCvVpbYRgYjMN7mG7qQN0Pg
 
-where v=video_id sould be the most popular video.
+where v=video_id should be the most popular video.
 
-list=list_code contains two diffrent parameters UULP and the rest. P in UULP indicates the Popular video. the rest code is the channel ID.
+list=list_code contains two different parameters. UULP and the rest. The P in UULP indicates the popular video. The rest of the code is the channel ID.
 
-In this case UULP is Popular Videos and CvVpbYRgYjMN7mG7qQN0Pg is the channel id
+In this case, UULP is Popular Videos, and CvVpbYRgYjMN7mG7qQN0Pg is the channel ID.
 
 # Recent / Latest Video Scheme
-Compared to Popular Video Scheme we only need to change two things. 
+Compared to the popular video scheme, we only need to change two things.
 1. Video ID
 2. From UULP to UULF
-   
-Video ID should be the latest Video id.
+   
+The video ID should be the latest video ID.
 
-Changing these two will Give you a playlist containing all Videos of given channel ID
+Changing these two will give you a playlist containing all videos with the given channel ID.
 
-# What if i dont know which video id to use?
-In this Case use any video id from that channel. using random Video id will start the playlist from that video.
+# What if I don't know which video ID to use?
+In this case, use any video ID from that channel. Using a random video ID will start the playlist form that video location.
 
-for example In Recent Video Playlist, If Video Id was the second most recent video the playlist will start from number 2.
+For example, in the Recent Video Playlist, if Video ID was the second most recent video, the playlist will start from number 2.
 
-In short Playlist conatining random Video ID will Start from the video relitive position in the given playlist.
+In short, a playlist containing a random video ID will start from the video's relative position in the given playlist.
 
-Example: https://www.youtube.com/watch?v=jUnckT__yHI&list=UULFCvVpbYRgYjMN7mG7qQN0Pg depending upon when you will visit this link and the recent videos on the channel you will find the video number to chnage.
+Example: https://www.youtube.com/watch?v=jUnckT__yHI&list=UULFCvVpbYRgYjMN7mG7qQN0Pg Depending on when you visit this link and the recent videos on the channel, you will find the video number to change.
 
-# How to Find channel ID?
-On Desktop go to the channel and then click on the channel discription.
+# How do I find the channel ID?
+On desktop, go to the channel and then click on the channel description.
 
 Scroll down until you see the option for share channel.
 
-Click on it and select copy channel ID. You will get something like this UCCvVpbYRgYjMN7mG7qQN0Pg
+Click on it and select copy channel ID. You will get something like this. UCCvVpbYRgYjMN7mG7qQN0Pg
 
-Just Remove the UC from the beginning and you have the channel ID which you can use in Playlist.
-
+Just remove the UC from the beginning, and you have the channel ID, which you can use in the Playlist.
